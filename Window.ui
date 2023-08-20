@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>729</width>
+    <height>459</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>729</width>
+     <height>459</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="firstPage">
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>110</y>
+       <width>261</width>
+       <height>301</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="timer">
+        <property name="text">
+         <string>时钟</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="countdown">
+        <property name="text">
+         <string>倒计时</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="about">
+        <property name="text">
+         <string>关于</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="title">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>10</y>
+       <width>580</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>55</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>simpleTimper</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="timerPage">
+    <widget class="QPushButton" name="fullDisplayBtn1">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>340</y>
+       <width>87</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>全屏显示</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="nowTime">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>20</y>
+       <width>571</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>60</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="nowDate">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>230</y>
+       <width>571</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>38</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="countdownPage">
+    <widget class="QLabel" name="point1">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>80</y>
+       <width>100</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>90</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="point2">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>80</y>
+       <width>100</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>90</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="startBtn">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>280</y>
+       <width>87</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>开始</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="second">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>90</y>
+       <width>120</width>
+       <height>130</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>70</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>2</number>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="minute">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>90</y>
+       <width>120</width>
+       <height>130</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>70</pointsize>
+      </font>
+     </property>
+     <property name="maxLength">
+      <number>2</number>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="hour">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>90</y>
+       <width>120</width>
+       <height>130</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>70</pointsize>
+      </font>
+     </property>
+     <property name="maxLength">
+      <number>2</number>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="stopBtn">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>280</y>
+       <width>87</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>停止</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="fullDisplayBtn2">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>280</y>
+       <width>87</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>全屏显示</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="abounPage"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
