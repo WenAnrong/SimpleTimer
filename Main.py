@@ -29,13 +29,11 @@ class MyWindow(QWidget, Ui_Form):
         # 设置大小不可变
         self.setFixedSize(729, 459)
 
+        # 引入字体
         QFontDatabase.addApplicationFont("./asset/VonwaonBitmap-16px.ttf")
-        self.setStyleSheet(
-            """
-            font-family: VonwaonBitmap 16px;
-            background-image: url('./asset/background.png');
-            """
-        )
+
+        # 为控件设置id/class
+        self.timer.setProperty("id", "timer")
 
         # 去除边框
         self.setWindowFlags(Qt.FramelessWindowHint)
@@ -55,7 +53,7 @@ class MyWindow(QWidget, Ui_Form):
             i.setStackedWidget(self.stackedWidget)
             i.setIndex(self.MyIndex)
             i.setScaledContents(True)
-            i.setGeometry(30, 30, 35, 35)
+            i.setGeometry(31, 54, 40, 35)
             i.setPixmap(exitImg)
             x = int(self.MyIndex) + 1
             self.MyIndex = str(x)
@@ -212,5 +210,8 @@ class MyWindow(QWidget, Ui_Form):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = MyWindow()
+    # 使用css样式
+    with open("./asset/styles.css", "r") as file:
+        window.setStyleSheet(file.read())
     window.show()
     app.exec()

@@ -24,10 +24,12 @@ class MyExitLabel(QLabel):
     def leaveEvent(self, e):  # 鼠标离开label
         exitImg = QPixmap("./asset/cup1.png")
         self.setPixmap(exitImg)
+        self.setGeometry(31, 54, 40, 35)
 
     def enterEvent(self, e):  # 鼠标移入label
-        exitImg = QPixmap("./asset/cup2.png")
+        exitImg = QPixmap("./asset/cupSpeak.png")
         self.setPixmap(exitImg)
+        self.setGeometry(30, 30, 40, 60)
 
 
 class MyCatLabel(QLabel):

@@ -22,7 +22,7 @@ class Ui_Form(object):
     def setupUi(self, Form):
         if not Form.objectName():
             Form.setObjectName(u"Form")
-        Form.resize(944, 674)
+        Form.resize(977, 674)
         self.horizontalLayout = QHBoxLayout(Form)
         self.horizontalLayout.setObjectName(u"horizontalLayout")
         self.horizontalSpacer = QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
@@ -32,7 +32,7 @@ class Ui_Form(object):
         self.hour = QLabel(Form)
         self.hour.setObjectName(u"hour")
         font = QFont()
-        font.setPointSize(160)
+        font.setPointSize(180)
         self.hour.setFont(font)
         self.hour.setAlignment(Qt.AlignCenter)
 
@@ -41,7 +41,7 @@ class Ui_Form(object):
         self.point1 = QLabel(Form)
         self.point1.setObjectName(u"point1")
         font1 = QFont()
-        font1.setPointSize(150)
+        font1.setPointSize(160)
         self.point1.setFont(font1)
         self.point1.setAlignment(Qt.AlignCenter)
 

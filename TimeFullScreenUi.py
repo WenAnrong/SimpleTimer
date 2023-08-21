@@ -22,7 +22,7 @@ class Ui_Form(object):
     def setupUi(self, Form):
         if not Form.objectName():
             Form.setObjectName(u"Form")
-        Form.resize(931, 766)
+        Form.resize(1091, 766)
         self.verticalLayout_2 = QVBoxLayout(Form)
         self.verticalLayout_2.setObjectName(u"verticalLayout_2")
         self.verticalLayout = QVBoxLayout()
@@ -36,7 +36,7 @@ class Ui_Form(object):
         self.nowTime.setSizePolicy(sizePolicy)
         self.nowTime.setMinimumSize(QSize(0, 0))
         font = QFont()
-        font.setPointSize(120)
+        font.setPointSize(180)
         self.nowTime.setFont(font)
         self.nowTime.setAlignment(Qt.AlignCenter)
 

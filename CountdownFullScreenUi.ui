@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>944</width>
+    <width>977</width>
     <height>674</height>
    </rect>
   </property>
@@ -31,7 +31,7 @@
     <widget class="QLabel" name="hour">
      <property name="font">
       <font>
-       <pointsize>160</pointsize>
+       <pointsize>180</pointsize>
       </font>
      </property>
      <property name="text">
@@ -46,7 +46,7 @@
     <widget class="QLabel" name="point1">
      <property name="font">
       <font>
-       <pointsize>150</pointsize>
+       <pointsize>160</pointsize>
       </font>
      </property>
      <property name="text">
@@ -61,7 +61,7 @@
     <widget class="QLabel" name="minute">
      <property name="font">
       <font>
-       <pointsize>160</pointsize>
+       <pointsize>180</pointsize>
       </font>
      </property>
      <property name="text">
@@ -76,7 +76,7 @@
     <widget class="QLabel" name="point2">
      <property name="font">
       <font>
-       <pointsize>150</pointsize>
+       <pointsize>160</pointsize>
       </font>
      </property>
      <property name="text">
@@ -91,7 +91,7 @@
     <widget class="QLabel" name="second">
      <property name="font">
       <font>
-       <pointsize>160</pointsize>
+       <pointsize>180</pointsize>
       </font>
      </property>
      <property name="text">

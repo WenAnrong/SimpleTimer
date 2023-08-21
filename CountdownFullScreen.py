@@ -24,7 +24,6 @@ class MyCDFullWindow(QWidget, Ui_Form):
 
     def keyPressEvent(self, event: QKeyEvent):
         if event.key() == Qt.Key_Escape:
-            print("esc")
             self.close()
 
     def changeDate(self, x):

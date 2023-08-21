@@ -1,0 +1,25 @@
+QWidget{
+  font-family: VonwaonBitmap 16px;
+  background-image: url('./asset/background.png');
+}
+
+QPushButton{
+  font-family: VonwaonBitmap 16px;
+  font-size: 20px;
+  background: #d5c59f;
+  border-radius: 4%;
+}
+
+QPushButton:hover{
+  font-size: 21px;
+}
+
+QLineEdit{
+  border-style: outset;
+  border-radius: 4%;
+  border-width: 1.5px;
+}
+
+.cupSpeak{
+  background-image: url('./asset/cupSpeak.png');
+}

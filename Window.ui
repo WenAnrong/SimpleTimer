@@ -26,39 +26,6 @@
     </rect>
    </property>
    <widget class="QWidget" name="firstPage">
-    <widget class="QWidget" name="layoutWidget">
-     <property name="geometry">
-      <rect>
-       <x>220</x>
-       <y>110</y>
-       <width>261</width>
-       <height>301</height>
-      </rect>
-     </property>
-     <layout class="QVBoxLayout" name="verticalLayout">
-      <item>
-       <widget class="QPushButton" name="timer">
-        <property name="text">
-         <string>时钟</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="countdown">
-        <property name="text">
-         <string>倒计时</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="about">
-        <property name="text">
-         <string>关于</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </widget>
     <widget class="QLabel" name="title">
      <property name="geometry">
       <rect>
@@ -83,15 +50,54 @@
       <set>Qt::AlignCenter</set>
      </property>
     </widget>
+    <widget class="QPushButton" name="about">
+     <property name="geometry">
+      <rect>
+       <x>221</x>
+       <y>329</y>
+       <width>270</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>关于</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="countdown">
+     <property name="geometry">
+      <rect>
+       <x>221</x>
+       <y>244</y>
+       <width>270</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>倒计时</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="timer">
+     <property name="geometry">
+      <rect>
+       <x>221</x>
+       <y>159</y>
+       <width>270</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>时钟</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QWidget" name="timerPage">
     <widget class="QPushButton" name="fullDisplayBtn1">
      <property name="geometry">
       <rect>
-       <x>310</x>
-       <y>340</y>
-       <width>87</width>
-       <height>27</height>
+       <x>230</x>
+       <y>320</y>
+       <width>270</width>
+       <height>40</height>
       </rect>
      </property>
      <property name="text">
@@ -109,7 +115,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>60</pointsize>
+       <pointsize>100</pointsize>
       </font>
      </property>
      <property name="text">
@@ -187,10 +193,10 @@
     <widget class="QPushButton" name="startBtn">
      <property name="geometry">
       <rect>
-       <x>310</x>
+       <x>290</x>
        <y>280</y>
-       <width>87</width>
-       <height>27</height>
+       <width>120</width>
+       <height>30</height>
       </rect>
      </property>
      <property name="text">
@@ -266,10 +272,10 @@
     <widget class="QPushButton" name="stopBtn">
      <property name="geometry">
       <rect>
-       <x>190</x>
+       <x>160</x>
        <y>280</y>
-       <width>87</width>
-       <height>27</height>
+       <width>120</width>
+       <height>30</height>
       </rect>
      </property>
      <property name="text">
@@ -279,10 +285,10 @@
     <widget class="QPushButton" name="fullDisplayBtn2">
      <property name="geometry">
       <rect>
-       <x>430</x>
+       <x>420</x>
        <y>280</y>
-       <width>87</width>
-       <height>27</height>
+       <width>120</width>
+       <height>30</height>
       </rect>
      </property>
      <property name="text">
